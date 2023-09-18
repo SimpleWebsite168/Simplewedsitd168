@@ -1,0 +1,94 @@
+body{
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 14px;
+}	
+#header{
+	background: lightskyblue;
+	padding: 7px 30px;
+	color: black;
+	text-align: right;
+}
+#container{
+	background-color: white;
+	width: 950px;
+	margin: 0 auto;
+}
+#footer{
+	background:lightseagreen;
+	padding:0;
+	color:#000;
+	text-align: center;
+}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+#menu ul li{
+ display: inline-block;
+    padding: 8px 16px;
+}
+
+#menu li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#menu li a:hover {
+  background-color:aqua;
+  color: white;
+  text-decoration: double;
+}
+#welcome{
+	padding-left: 30px;
+}
+#welcome p{
+	padding-left: 50px;
+}
+#f_cate ul{
+	list-style-type: none;
+	font-family: khmer os content;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#f_cate ul li{
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+}
+#f_cate ul li a{
+	color: green;
+	text-decoration: none;
+}
+#f_cate ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.item{
+	width: 200px;
+	margin: 8px;
+	padding: 7px;
+	border:1px solid lightgreen;
+	float: left;
+	border-radius: 7px;
+}
+.item img{
+	width: 100%;
+	height: 120px;
+}
+.clear{
+	clear: both;
+	width: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
